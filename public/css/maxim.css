@@ -48,10 +48,19 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 }
 
 /***** banner PC *****/
-.banner {position: relative; margin: 5.35rem auto;}
+.banner {position: relative; margin: 5.35rem auto 0;}
 .banner_wrap {width: 100%; position: relative;}
 .banner_wrap > li {position: absolute; width: 100%;}
 
 /***** content1 PC *****/
-#content1 {width: 100%; margin:0 auto; background-color: violet;}
-.event_con {}
+#content1 {max-width: 1920px; margin:0 auto; background-color: violet; position: relative;}
+.event_cont {background: url(../img/event_content.png) no-repeat; height: 373.67px; position: relative; width: 50%; float: left;}
+.product_cont {background: url(../img/product_content.png) no-repeat; height:373.67px; position: relative; width:50%; float: left;}
+.text {text-align: center; margin-top: 3rem;}
+.text > h3 {color:#fff; font-weight: bold; padding-bottom: 2rem;}
+.text > p {color:#fff;}
+.event_bt {position: absolute;  transform: translate(25.3rem,100%);	top: 40%; cursor: pointer;}
+.event_bt > li {border:2px solid #fff; color:#fff; border-radius: 20px; padding: 8px 40.5px;}
+.product_bt {position: absolute; right: 24.95em;	transform: translateY(12rem); cursor: pointer;}
+.product_bt > li {border:2px solid #fff; color:#fff; border-radius: 20px; padding: 8px 40.5px;}
+.event_bt:hover > li, .product_bt:hover > li{border:2px solid rgba(255, 221, 159, 0.918); color:rgba(255, 221, 159, 0.918);}
