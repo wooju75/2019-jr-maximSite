@@ -35,6 +35,6 @@ var options = {
 	speed: 300,
 	dir: -1,
 	dirBtnUse: true,
-	dirBtn:[$("#bt_prev"), $("#bt_next")]
+	dirBtn:[$("#bt_prev"), $("#bt_next")],
 };
 var horiBanner = new SlideHori($("#banner1"), $("#banner1").find(".slide"), options);

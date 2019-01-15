@@ -51,3 +51,7 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 .banner {position: relative; margin: 5.35rem auto;}
 .banner_wrap {width: 100%; position: relative;}
 .banner_wrap > li {position: absolute; width: 100%;}
+
+/***** content1 PC *****/
+#content1 {width: 100%; margin:0 auto; background-color: violet;}
+.event_con {}
