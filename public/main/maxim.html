@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,16 @@
 	<title>맥심 브랜드</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/w3.css">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/maxim.css">
 	<script src="../js/jquery-3.3.1.min.js"></script>
 	<script src="../js/imagesloaded.pkgd.min.js"></script>
 	<script src="../js/masonry.pkgd.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 </head>
+
 <body>
+	<!-- 피씨 네비게이션 -->
 	<header class="clear">
 		<div class="logo">
 			<a href="http://localhost:5000/main/main.html"><img src="../img/maxim_logo.png" class="img"></a>
@@ -23,25 +26,29 @@
 			<li class="nav">
 				<a>ABOUT MAXIM</a>
 			</li>
-		  <li class="nav">
-			 <a>PRODUCT</a>
+			<li class="nav">
+				<a>PRODUCT</a>
 			</li>
 			<li class="nav">
 				<a>EVENT</a>
-		  </li>
+			</li>
 			<li class="nav">
 				<a>NEWS&MEDIA</a>
-		  </li>
+			</li>
 			<li class="nav">
-			  <a>CUSTOMER</a>
-		  </li>
-		 </ul>
-		 <a class="header_s_bg"><p>LOGIN<br>MEMBERSHIP</p></a>
-		 <div class="navs_mo">
+				<a>CUSTOMER</a>
+			</li>
+		</ul>
+		<a class="header_s_bg">
+			<p>LOGIN<br>MEMBERSHIP</p>
+		</a>
+		
+		<!-- 모바일 네비게이션 -->
+		<div class="navs_mo">
 			<span class="fa fa-bars"></span>
 		</div>
 	</header>
-	 <ul class="navs_mo_sub">
+	<ul class="navs_mo_sub">
 		<li class="nav nav_close">x</li>
 		<li class="nav">ABOUT MAXIM</li>
 		<li class="nav">PRODUCT</li>
@@ -49,54 +56,111 @@
 		<li class="nav">NEWS&MEDIA</li>
 		<li class="nav">CUSTOMER</li>
 	</ul>
-<div class="wrap">
- <section class="banner page">
-  <ul class="banner_wrap" id="banner1">
-		<li class="slide">
-			<img src="../img/video_img.png" class="img">
-		</li>
-		<li class="slide">
-			<img src="../img/video_img2.png" class="img">
-		</li>
-		<li class="slide">
-			<img src="../img/video_img3.png" class="img">
-		</li>
-		<li class="slide">
-			<img src="../img/video_img4.png" class="img">
-		</li>
-		<li class="slide">
-			<img src="../img/video_img5.png" class="img">
-	  </li>
-	</ul>
- </section>
-</div>
 
-<div id="content1">
- <div class="event_cont">
-	 <div class="text">
-	  <h3>맥심 이벤트</h3>
-		<p>맥심의 다양한 이벤트를 즐기실 수 있습니다.</p>
+	<!-- 박스 슬라이더 -->
+	<div class="wrap">
+		<section class="banner page">
+			<ul class="banner_wrap" id="banner1">
+				<li class="slide">
+					<img src="../img/video_img1.png" class="img">
+				</li>
+				<li class="slide">
+					<img src="../img/video_img2.png" class="img">
+				</li>
+				<li class="slide">
+					<img src="../img/video_img3.png" class="img">
+				</li>
+				<li class="slide">
+					<img src="../img/video_img4.png" class="img">
+				</li>
+				<li class="slide">
+					<img src="../img/video_img5.png" class="img">
+				</li>
+			</ul>
+		</section>
 	</div>
-	<ul class="event_bt">
-   <li>이벤트</li>
-	</ul>
- </div>
+
+	<!-- 맥심이벤트/맥심제품 소개 컨텐츠 -->
+	<div id="content1" class="clear">
+		<div class="event_cont">
+			<img src="../img/event_content.png" class="img">
+			<div class="text">
+				<h3>맥심 이벤트</h3>
+				<p>맥심의 다양한 이벤트를 즐기실 수 있습니다.</p>
+			</div>
+			<ul class="event_bt">
+				<li>이벤트</li>
+			</ul>
+		</div>
+
+		<div class="product_cont">
+			<img src="../img/product_content.png" class="img">
+			<div class="text">
+				<h3>맥심제품 소개</h3>
+				<p>맥심의 다양한 제품들을 만나보세요.</p>
+			</div>
+		</div>
+		<ul class="product_bt">
+			<li>전체메뉴</li>
+		</ul>
+	</div>
+
+	<!-- 맥심소개 컨텐츠 -->
+	<div id="content2">
+		<div class="text_2">
+			<h3>맥심 소개</h3>
+			<p>맥심은 국내 커피 역사를 이끌어 온 정통성과 세계적인 기술력, 커피전문가의 노하우로<br>
+				고품질의 커피 본연의 맛과 향을 즐길 수 있는 좋은 커피입니다.</p>
+		</div>
+		<div class="intro_wrap clear">
+			
+			<div class="intbox_1">
+				<div class="picture_1"><img src="../img/coffee_img.png" class="img"></div>
+				<div>
+					<h3>항상</h3>
+					<p>곁에 있는</p>
+				</div>
+			</div>
+			
+			<div class="intbox_2">
+				<div>
+					<h3>내 입맛에</h3>
+					<p>딱 맞는</p>
+				</div>
+				<div class="picture_2"><img src="../img/cafe_img.png" class="img"></div>
+			</div>
+		
+			<div class="intbox_3">
+				<img src="../img/cafe_img2.png" class="img">
+				<div>
+					<h3>우리나라</h3>
+					<p>대표커피</p>
+				</div>
+			</div>
+		</div>
+	</div>
  
- <div class="product_cont">
-	<div class="text">
-		<h3>맥심제품 소개</h3>
-		<p>맥심의 다양한 제품들을 만나보세요.</p>
+	<!-- 오리지날 product 슬라이드 -->
+<div id="content3">
+	<div class="text_3">
+			<h3><span>ORIGINAL</span> PRODUCT</h3>
+			<p>맥심 오리지날은 진하지도 연하지도 않은 최적의 맛과 향을 가진 커피로서<br>
+			소비자들의 입맛에 가장 잘 맞는 제품입니다.</p>
 	</div>
- </div>
- <ul class="product_bt">
-	 <li>전체메뉴</li>
- </ul>
+	<!-- 슬라이드 보류 -->
+	<div class="wrap2 clear">
+		<div class="origin_pro_wrap">
+			<li><img src="../img/origin_product2.png" class="img"></li>
+			<li><img src="../img/origin_product1.png" class="img"></li>
+			<li><img src="../img/origin_product3.png" class="img"></li>
+		</div>
+	</div>
 </div>
-	
 
-<footer></footer>
-	
-	<script src="../js/slide.hori.js"></script> 
+	<footer></footer>
+
+	<script src="../js/slide.hori.js"></script>
 	<script src="../js/maxim.js"></script>
 </body>
+
 </html>
