@@ -38,3 +38,5 @@ var options = {
 	dirBtn:[$("#bt_prev"), $("#bt_next")],
 };
 var horiBanner = new SlideHori($("#banner1"), $("#banner1").find(".slide"), options);
+
+/***** original product 슬라이드 *****/
