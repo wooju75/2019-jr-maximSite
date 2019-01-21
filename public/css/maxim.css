@@ -69,7 +69,7 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 #content2 {width:100%; background-color: #222; height: 700px; text-align: center;}
 .text_2 h3 {color:#fff; font-weight: bold; padding: 3rem 0 2rem 0}
 .text_2 p {color:#fff;}
-.intro_wrap {width:1100px; margin:0 auto; height:400px; margin-top: 3rem;}
+.intro_wrap {width:1100px; margin:0 auto; height:400px; margin-top: 3rem; position: relative;}
 .intbox_1 {width: 550px;}
 .picture_1 {width: 275px; float: left; height: 200px;}
 .picture_1 + div {background-color: #ec3434; float: left;	width: 275px;	height: 200px;}
@@ -80,9 +80,8 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 .intbox_2 > div > h3 {color: #fff;	font-size: 2rem; padding-bottom: 0.75rem;	margin-top: 3.15rem;}
 .intbox_2 > div > p {color: #fff; font-size: 2rem;	font-weight: bold;}
 .picture_2 {width: 275px; float: left; height:200px;}
-.intbox_3 {width: 550px; height:402px; position: absolute;	right: 0; transform: translateX(-25.1rem);;}
-.intbox_3 > div {background-color: #ec3434;	width: 275px;	height: 200px; position: absolute; top: 0;
-	transform: translateY(12.62rem)}
+.intbox_3 {width: 550px; height:402px; position: absolute;	right: 0;}
+.intbox_3 > div {background-color: #ec3434;	width: 275px;	height: 200px; position: absolute; top: 0; transform:translateY(12.62rem)}
 .intbox_3 > div > h3 {color: #fff;	font-size: 2rem; padding-bottom: 0.75rem;	margin-top: 3.15rem;}
 .intbox_3 > div > p {color: #fff; font-size: 2rem;	font-weight: bold;}
 
@@ -110,3 +109,18 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 
 /***** content5 PC *****/
 #content5 {width: 100%; height: 700px;}
+.inner_wrap {width: 1247px; margin: auto; }
+.dp_block {float: left; padding: 3rem 0.1rem 0 3rem; position: relative;}
+.opa_bg1, .opa_bg2 {position: absolute; background-color: rgba(0,0,0,.5); width: 550px; height: 607px; top: 3rem; opacity: 0;}
+.text_5 {color:#fff; margin-top: 2.5rem;}
+.opa_bg1 > ul:first-child, .opa_bg2 > ul:first-child {text-align: center; padding: 3rem;	margin-top: 11rem;}
+.click_bt {border: 2px solid #fff; border-radius: 20px; width: 135px; margin: 3rem 0 0 13rem; text-align: center; cursor: pointer;}
+.click_bt > li {color: #fff; padding: 8px 32.5px;}
+.dp_block:hover .opa_bg1 {transition:0.8s; opacity: 1;}
+.dp_block:hover .opa_bg2 {transition:0.8s; opacity: 1;}
+
+/***** content6 PC *****/
+#content6 {width: 100%; height: 600px;}
+.community_wrap {width: 948px;}
+.img_wid {width: 150px;}
+.inner_wrap2 > li {max-width: 948px;}
