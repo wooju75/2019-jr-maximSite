@@ -120,7 +120,28 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 .dp_block:hover .opa_bg2 {transition:0.8s; opacity: 1;}
 
 /***** content6 PC *****/
-#content6 {width: 100%; height: 600px;}
-.community_wrap {width: 948px;}
-.img_wid {width: 150px;}
-.inner_wrap2 > li {max-width: 948px;}
+#content6 {width: 100%; position: relative;}
+.community_wrap {width:948px; float: left;}
+.wrap_box {max-width: 960px; position: relative; }
+.text_6 {position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); text-align: center;}
+.text_6 > h2 {margin-bottom:2rem; color: #fff; font-weight: bolder;}
+.commu_bt {background-color: #fff; border-radius: 20px; width: 135px; margin: 0 auto; cursor: pointer;}
+.commu_bt:first-child {margin-left: 4.65rem;}
+.commu_bt > li {padding: 9px 6px;}
+.commu_bt:hover li {color:#ec3434;}
+.facebook_wrap {width: 948px; float: left;}
+.facebook_wrap > li {max-width: 474px; float: left; position: relative;}
+.text_7 {position: absolute; top:50%; left: 50%; text-align: center; transform: translate(-50%,-50%);}
+.text_7 > h2 {color: #fff; margin-bottom: 1rem; font-weight: bolder;}
+.text_7 > p {color:#fff; cursor: pointer;}
+
+footer {background-color: #222; width: 100%; height: 130px;}
+.ft_wrap {width: 1200px; margin: 0 auto;}
+.ft_wrap > ul {padding: 1.5rem 0;}
+.ft_wrap > ul > li {color: #f1efeb; float: left; font-weight: bold; font-size: 0.75em; border-right: 1px solid #fff;
+padding: 0 1rem;  cursor: pointer;}
+.ft_wrap > ul > li:last-child { border-right:none;}
+select {background-color: #ec3434; width: 170px; border-radius: 20px; float: right; color: #fff; font-weight: bold;
+border:none;}
+.copyright_wrap {text-align: center;}
+.copyright_wrap > li {font-weight: bold; padding: 1.5rem; color: #fff; border-top: 0.5px solid rgba(158, 158, 158, 0.5);;;}
