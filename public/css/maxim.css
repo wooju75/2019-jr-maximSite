@@ -120,7 +120,7 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 .dp_block:hover .opa_bg2 {transition:0.8s; opacity: 1;}
 
 /***** content6 PC *****/
-#content6 {max-width: 100%; position: relative; border:2px solid #f00;}
+#content6 {max-width: 100%; position: relative;}
 .community_wrap {float: left; width: 50%;}
 .wrap_box {max-width: 960px; position: relative; }
 .text_6 {position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); text-align: center;}
@@ -130,7 +130,7 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 .commu_bt > li {padding: 9px 6px;}
 .commu_bt:hover li {color:#ec3434;}
 .facebook_wrap {width:50%; float: left;}
-.facebook_wrap > li {float: left; position: relative; width: 474px;}
+.facebook_wrap > li {float: left; position: relative; width: 474.5px;}
 .text_7 {position: absolute; top:50%; left: 50%; text-align: center; transform: translate(-50%,-50%);}
 .text_7 > h2 {color: #fff; margin-bottom: 1rem; font-weight: bolder;}
 .text_7 > p {color:#fff; cursor: pointer;}
