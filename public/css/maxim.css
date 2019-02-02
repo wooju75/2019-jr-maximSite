@@ -68,7 +68,7 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 .event_bt:hover > li, .product_bt:hover > li{border:2px solid rgba(255, 221, 159, 0.918); color:rgba(255, 221, 159, 0.918);}
 
 /***** content2 PC *****/
-#content2 {width:100%; background-color: #222; padding: 5rem; text-align: center;}
+#content2 {background-color: #222; padding: 5rem; text-align: center;}
 .text_2 h3 {color:#fff; font-weight: bold; margin-bottom: 1.5rem;}
 .text_2 p {color:#fff;}
 .intro_wrap {max-width:1100px; margin:0 auto; margin-top: 3rem; position: relative;}
@@ -99,9 +99,9 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 .text_3_1 {margin-top: 1rem; font-weight: bold;}
 
 /***** content4 PC *****/
-#content4 {position: relative; width: 100%; height: 885px;}
-.text_4 {transform: translateY(-38rem);}
-.text_4 > h3 {color: #fff; font-weight: bold; margin-left: 23rem; font-size: 1.75rem;}
+#content4 {position: relative;}
+.text_4 {position:absolute; transform: translateY(-38rem);}
+.text_4 > h3 {color: #fff; font-weight: bold; margin-left: 23rem; font-size: 2.5rem;}
 .text_4 > p {color:#fff; margin: 3rem 0 0 23rem; font-size: 13px;}
 .text_4 > img {width: 76px; margin: 3rem 0 0 23rem;}
 .store_bt {border: 2px solid #fff; border-radius: 20px; width: 135px; margin:4.75rem 0 0 23rem; text-align: center; cursor: pointer;}
@@ -110,11 +110,11 @@ background-color:#f1efeb; z-index: 999; top: 0; text-align: center;}
 /***** content5 PC *****/
 #content5 {width: 100%; padding: 5rem;}
 .inner_wrap {max-width: 1247px; margin: auto; }
-.dp_block {float: left; padding: 3rem 0.1rem 0 3rem; position: relative;}
-.opa_bg1, .opa_bg2 {position: absolute; background-color: rgba(0,0,0,.5); width: 550px; height: 607px; top: 3rem; opacity: 0;}
+.dp_block {float: left; position: relative; width: 50%;}
+.opa_bg1, .opa_bg2 {position: absolute; background-color: rgba(0,0,0,.5); width: 624px;	height: 687px;	top: 0; opacity: 0;}
 .text_5 {color:#fff; margin-top: 2.5rem;}
 .opa_bg1 > ul:first-child, .opa_bg2 > ul:first-child {text-align: center; padding: 3rem;	margin-top: 11rem;}
-.click_bt {border: 2px solid #fff; border-radius: 20px; width: 135px; margin: 3rem 0 0 13rem; text-align: center; cursor: pointer;}
+.click_bt {border: 2px solid #fff; border-radius: 20px; width: 135px; margin:3rem 0 0 15rem; text-align: center; cursor: pointer;}
 .click_bt > li {color: #fff; padding: 8px 32.5px;}
 .dp_block:hover .opa_bg1 {transition:0.8s; opacity: 1;}
 .dp_block:hover .opa_bg2 {transition:0.8s; opacity: 1;}
